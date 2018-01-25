@@ -68,6 +68,12 @@ This project contains reverse engineered documentation for different elements of
 * Execute `npm install` to download and install all dependencies
 * Execute `npm install xpc-connection` to install XPC Connection bindings for node.js. XPC is macOS-specific, so this is not required on other platforms.
 
+### Installation on Windows
+* Make sure you have [node.js](https://nodejs.org) installed
+* Make sure you meet the [node-gyp and node-bluetooth-hci-socket prerequisites](https://github.com/sandeepmistry/noble#windows)
+* Clone this repository and navigate into the `fluffd` directory on the command line
+* Execute `npm install` to download and install all dependencies
+
 ### Start fluffd
 Launch fluffd using
 ```bash
