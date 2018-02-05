@@ -68,12 +68,6 @@ This project contains reverse engineered documentation for different elements of
 * Execute `npm install` to download and install all dependencies
 * Execute `npm install xpc-connection` to install XPC Connection bindings for node.js. XPC is macOS-specific, so this is not required on other platforms.
 
-### Installation on Windows
-* Make sure you have [node.js](https://nodejs.org) installed
-* Make sure you meet the [node-gyp and node-bluetooth-hci-socket prerequisites](https://github.com/sandeepmistry/noble#windows)
-* Clone this repository and navigate into the `fluffd` directory on the command line
-* Execute `npm install` to download and install all dependencies
-
 ### Start fluffd
 Launch fluffd using
 ```bash
@@ -118,7 +112,7 @@ However, since none of these personalities seem to be openly accessible by treat
 My speculation here is that Hasbro might want to sell "masks" for Furby Connect. Metaphorically, it makes perfect sense to have "putting on a mask" meaning "changing your personality". Also, I have found references to a "Mask" that doesn't appear to be the sleep mask in the App. But most importantly, when dissecting the sleep mask, I found a PCB with [space for an SO-8 IC](img/mask_front.png) (probably an SPI EEPROM?) and [test points on the back](img/mask_back.png).
 
 ### Furby doesn't really sleep
-After going to sleep, Furby will keep advertising his BLE connection. This means, you can wake Furby up even with the sleep mask on or send him updates while he appears to be asleep. He only really shuts off after being disconnected from the App and asleep for a few minutes, but by maintaining the BLE connection you can also keep him awake until the batteries run out.
+After going to sleep, Furby will keep advertising his BLE connection (pulling ~150mA). This means, you can wake Furby up even with the sleep mask on or send him updates while he appears to be asleep. He only really shuts off after being disconnected from the App and asleep for 10 minutes, but by maintaining the BLE connection you can also keep him awake until the batteries run out.
 
 ### Missing Name
 Even though the name is in the list in the Furby Connect World App and even though it should exist in the regular pattern of possible two-syllable Furby names, you cannot name your Furby Connect "Tay-Tah".
