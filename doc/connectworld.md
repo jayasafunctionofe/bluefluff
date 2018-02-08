@@ -37,6 +37,15 @@ Now by sniffing the encrypted GET requests, we can find out that the Furby Conne
 ```
 http://chromecastpd.s3.amazonaws.com/furbyconnect/cinemav010/masterlist.xml
 ```
+At some point (possibly around April 28, 2017) this changed and the app now connects to the following to get the current DLC file:
+```
+http://furbyapp.s3.amazonaws.com/live/dlc/_manifest
+```
+
+The manifest file links to a dlcXX file that appears to be the previously mentioned masterlist.xml file, first example after this switch:
+```
+http://furbyapp.s3.amazonaws.com/live/dlc/dlc16
+```
 
 After parsing the masterlist XML file, the Furby Connect World continues to download the video-specific XML files, e.g.
 ```
