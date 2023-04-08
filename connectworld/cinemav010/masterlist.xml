@@ -1,0 +1,99 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<BundleList formatversion="10">
+  <ToyDLC size="653926" checksum="0xAE50FBA9" tags="dlc38 TooHotChilliLCD">TU021310.DLC</ToyDLC>
+  <ToyDLC size="678050" checksum="0x591111FE" tags="dlc38 TooHotChilliLCD">TR021730.DLC</ToyDLC>
+  <ToyDLC size="678540" checksum="0xE1FD9C1E" tags="dlc39 TooHotChilliLCD">TU021760.DLC</ToyDLC>
+  <ToyDLC size="684122" checksum="0x422B02B4" tags="dlc39 TooHotChilliLCD">TR021760.DLC</ToyDLC>
+  <WeeklyBundle dlctag="dlc38" timestamp="1535068800">
+    <VideoBundle name="kidzbopdlc38.xml" group="9" />
+    <VideoBundle name="bestdayofmylifedlc38.xml" group="1" new="true" />
+    <VideoBundle name="superfurbdlc38.xml" group="7" />
+    <Learnt name="superfurb" group="8" />
+    <Learnt name="kidzbop" group="10" />
+    <Learnt name="bestdayofmylife" group="2" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc38" type="Specific" input="75" index="0" subindex="2" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc38" type="Specific" input="73" index="0" subindex="2" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="11" />
+  </WeeklyBundle>
+  <WeeklyBundle dlctag="dlc38" timestamp="1535673600">
+    <VideoBundle name="bestdayofmylifedlc38.xml" group="1" />
+    <VideoBundle name="doghanddlc38.xml" group="3" new="true" />
+    <VideoBundle name="kidzbopdlc38.xml" group="9" />
+    <Learnt name="kidzbop" group="10" />
+    <Learnt name="bestdayofmylife" group="2" />
+    <Learnt name="doghand" group="4" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc38" type="Specific" input="75" index="0" subindex="3" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc38" type="Specific" input="73" index="0" subindex="3" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="12" />
+  </WeeklyBundle>
+  <WeeklyBundle dlctag="dlc38" timestamp="1536278400">
+    <VideoBundle name="doghanddlc38.xml" group="3" />
+    <VideoBundle name="yourbirthdaydlc38.xml" group="5" new="true" />
+    <VideoBundle name="bestdayofmylifedlc38.xml" group="1" />
+    <Learnt name="bestdayofmylife" group="2" />
+    <Learnt name="doghand" group="4" />
+    <Learnt name="yourbirthday" group="6" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc38" type="Specific" input="75" index="0" subindex="4" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc38" type="Specific" input="73" index="0" subindex="4" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="13" />
+  </WeeklyBundle>
+  <WeeklyBundle dlctag="dlc39" timestamp="1536883200">
+    <VideoBundle name="yourbirthdaydlc39.xml" group="9" />
+    <VideoBundle name="hoheydlc39.xml" group="1" new="true" />
+    <VideoBundle name="doghanddlc39.xml" group="7" />
+    <Learnt name="doghand" group="8" />
+    <Learnt name="yourbirthday" group="10" />
+    <Learnt name="hohey" group="2" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc39" type="Specific" input="75" index="0" subindex="2" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc39" type="Specific" input="73" index="0" subindex="2" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="11" />
+  </WeeklyBundle>
+  <WeeklyBundle dlctag="dlc39" timestamp="1537488000">
+    <VideoBundle name="hoheydlc39.xml" group="1" />
+    <VideoBundle name="ghostdlc39.xml" group="3" new="true" />
+    <VideoBundle name="yourbirthdaydlc39.xml" group="9" />
+    <Learnt name="yourbirthday" group="10" />
+    <Learnt name="hohey" group="2" />
+    <Learnt name="ghost" group="4" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc39" type="Specific" input="75" index="0" subindex="3" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc39" type="Specific" input="73" index="0" subindex="3" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="12" />
+  </WeeklyBundle>
+  <WeeklyBundle dlctag="dlc39" timestamp="1538092800">
+    <VideoBundle name="ghostdlc39.xml" group="3" />
+    <VideoBundle name="nodlc39.xml" group="5" new="true" />
+    <VideoBundle name="hoheydlc39.xml" group="1" />
+    <Learnt name="hohey" group="2" />
+    <Learnt name="ghost" group="4" />
+    <Learnt name="no" group="6" />
+    <FurbyAlerts lang="U">
+      <Sequence dlc="dlc39" type="Specific" input="75" index="0" subindex="4" specific="1" />
+    </FurbyAlerts>
+    <FurbyAlerts lang="R">
+      <Sequence dlc="dlc39" type="Specific" input="73" index="0" subindex="4" specific="1" />
+    </FurbyAlerts>
+    <WeeklyObsession group="13" />
+  </WeeklyBundle>
+  <FutureBundle dlctag="dlc39" timestamp="1538697600" duration="604800" group="14" />
+</BundleList>
