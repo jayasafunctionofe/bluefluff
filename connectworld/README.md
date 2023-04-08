@@ -1,4 +1,4 @@
-# FurbyConnect
+# ConnectWorld content
 This folder contains an archive of some of the DLC and Video content that the Furby Connect would reference from an AWS server.
 
 #### cinemav010\
